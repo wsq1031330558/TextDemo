@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="activity.zhuxin.edu.textdemo.activity.Main2Activity">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/center_main2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+
+        <fragment
+            android:id="@+id/left_mian2"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left" />
+
+        <fragment
+            android:id="@+id/right_mian2"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right" />
+
+
+    </android.support.v4.widget.DrawerLayout>
+</RelativeLayout>
